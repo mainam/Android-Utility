@@ -1,0 +1,19 @@
+﻿<html lang="en-us">
+
+<body id="login" class="animated fadeInDown" onload="GetSSO();">
+                            <input type="hidden" id="datalogin" />
+    <object style="visibility: hidden; height: 1px;" id="EpAdm2 Control" name="EpAdmC" classid="CLSID:C63E3330-049F-4C31-B47E-425C84A5A725"></object>
+    <script type="text/javascript">
+        function GetSSO() {
+            var a = document.getElementById("datalogin");
+            var rrtn = EpAdmC.GetSecureBox();
+            if (rrtn != null && rrtn != "") {
+                a.value = rrtn;
+            }
+            else
+                a.value = "";
+        }
+
+    </script>
+</body>
+</html>

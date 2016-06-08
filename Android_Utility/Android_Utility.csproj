@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CBF95D7D-4376-4B61-89E2-A0168D5AFEF8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Android_Utility</RootNamespace>
+    <AssemblyName>Android Utility</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>\\107.113.53.35\common\5.USERS\ngoc.nam\PROJECT\ANDROID_UTILITY\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <MinimumRequiredVersion>1.0.1.17</MinimumRequiredVersion>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>25</ApplicationRevision>
+    <ApplicationVersion>1.0.20.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>1446820854_android_online_social_media.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>F06FB5BA17F10A2A9A4790CAE82883803DCF8765</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Android_Utility_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.Linq.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdbCommand.cs" />
+    <Compile Include="ADBmanager\AdbHelper.cs" />
+    <Compile Include="ADBmanager\AdbResponse.cs" />
+    <Compile Include="ADBmanager\AllocationInfo.cs" />
+    <Compile Include="ADBmanager\AndroidDebugBridge.cs" />
+    <Compile Include="ADBmanager\AndroidDebugBridgeEventArgs.cs" />
+    <Compile Include="ADBmanager\BatteryInfo.cs" />
+    <Compile Include="ADBmanager\BusyBox.cs" />
+    <Compile Include="ADBmanager\ChunkHandler.cs" />
+    <Compile Include="ADBmanager\Client.cs" />
+    <Compile Include="ADBmanager\ClientData.cs" />
+    <Compile Include="ADBmanager\ClientEventArgs.cs" />
+    <Compile Include="ADBmanager\ColorData.cs" />
+    <Compile Include="ADBmanager\Conversion\BigEndianBitConverter.cs" />
+    <Compile Include="ADBmanager\Conversion\DoubleConverter.cs" />
+    <Compile Include="ADBmanager\Conversion\EndianBitConverter.cs" />
+    <Compile Include="ADBmanager\Conversion\Endianness.cs" />
+    <Compile Include="ADBmanager\Conversion\LittleEndianBitConverter.cs" />
+    <Compile Include="ADBmanager\DdmPreferences.cs" />
+    <Compile Include="ADBmanager\Debugger.cs" />
+    <Compile Include="ADBmanager\DebugPortManager.cs" />
+    <Compile Include="ADBmanager\Device.cs" />
+    <Compile Include="ADBmanager\DeviceEventArgs.cs" />
+    <Compile Include="ADBmanager\DeviceMonitor.cs" />
+    <Compile Include="ADBmanager\ErrorCodeHelper.cs" />
+    <Compile Include="ADBmanager\Exceptions\AdbCommandRejectedException.cs" />
+    <Compile Include="ADBmanager\Exceptions\AdbException.cs" />
+    <Compile Include="ADBmanager\Exceptions\BadPacketException.cs" />
+    <Compile Include="ADBmanager\Exceptions\CommandAbortingException.cs" />
+    <Compile Include="ADBmanager\Exceptions\DeviceNotFoundException.cs" />
+    <Compile Include="ADBmanager\Exceptions\PackageInstallationException.cs" />
+    <Compile Include="ADBmanager\Exceptions\PermissionDeniedException.cs" />
+    <Compile Include="ADBmanager\Exceptions\ShellCommandUnresponsiveException.cs" />
+    <Compile Include="ADBmanager\Exceptions\UnknownOptionException.cs" />
+    <Compile Include="ADBmanager\Extensions\ArrayHelper.cs" />
+    <Compile Include="ADBmanager\Extensions\BytesHelper.cs" />
+    <Compile Include="ADBmanager\Extensions\DateTimeHelper.cs" />
+    <Compile Include="ADBmanager\Extensions\FileInfoHelper.cs" />
+    <Compile Include="ADBmanager\Extensions\IntegerHelper.cs" />
+    <Compile Include="ADBmanager\Extensions\MadbExtensions.cs" />
+    <Compile Include="ADBmanager\Extensions\PathHelper.cs" />
+    <Compile Include="ADBmanager\Extensions\ReflectionHelper.cs" />
+    <Compile Include="ADBmanager\Extensions\StringHelper.cs" />
+    <Compile Include="ADBmanager\FileEntry.cs" />
+    <Compile Include="ADBmanager\FileListingService.cs" />
+    <Compile Include="ADBmanager\FilePermission.cs" />
+    <Compile Include="ADBmanager\FileSystem.cs" />
+    <Compile Include="ADBmanager\IClient.cs" />
+    <Compile Include="ADBmanager\IDebugPortProvider.cs" />
+    <Compile Include="ADBmanager\IDevice.cs" />
+    <Compile Include="ADBmanager\ILogOutput.cs" />
+    <Compile Include="ADBmanager\IO\BEBinaryReader.cs" />
+    <Compile Include="ADBmanager\IO\BEBinaryWriter.cs" />
+    <Compile Include="ADBmanager\IO\ByteBuffer.cs" />
+    <Compile Include="ADBmanager\IO\ByteOrder.cs" />
+    <Compile Include="ADBmanager\IO\LinuxPath.cs" />
+    <Compile Include="ADBmanager\IO\Rgb565.cs" />
+    <Compile Include="ADBmanager\IPacketConsumer.cs" />
+    <Compile Include="ADBmanager\ISyncProgressMonitor.cs" />
+    <Compile Include="ADBmanager\Log.cs" />
+    <Compile Include="ADBmanager\LogLevel.cs" />
+    <Compile Include="ADBmanager\Logs\ILogListener.cs" />
+    <Compile Include="ADBmanager\Logs\LogEntry.cs" />
+    <Compile Include="ADBmanager\Logs\LogReceiver.cs" />
+    <Compile Include="ADBmanager\MonitorThread.cs" />
+    <Compile Include="ADBmanager\MoreLinq\AssertCount.cs" />
+    <Compile Include="ADBmanager\MoreLinq\Batch.cs" />
+    <Compile Include="ADBmanager\MoreLinq\Concat.cs" />
+    <Compile Include="ADBmanager\MoreLinq\Consume.cs" />
+    <Compile Include="ADBmanager\MoreLinq\DistinctBy.cs" />
+    <Compile Include="ADBmanager\MoreLinq\ExceptBy.cs" />
+    <Compile Include="ADBmanager\MoreLinq\ForEach.cs" />
+    <Compile Include="ADBmanager\MoreLinq\Generate.cs" />
+    <Compile Include="ADBmanager\MoreLinq\GenerateByIndex.cs" />
+    <Compile Include="ADBmanager\MoreLinq\GroupAdjacent.cs" />
+    <Compile Include="ADBmanager\MoreLinq\Index.cs" />
+    <Compile Include="ADBmanager\MoreLinq\KeyValuePair.cs" />
+    <Compile Include="ADBmanager\MoreLinq\MaxBy.cs" />
+    <Compile Include="ADBmanager\MoreLinq\MinBy.cs" />
+    <Compile Include="ADBmanager\MoreLinq\MoreEnumerable.cs" />
+    <Compile Include="ADBmanager\MoreLinq\Pad.cs" />
+    <Compile Include="ADBmanager\MoreLinq\Pairwise.cs" />
+    <Compile Include="ADBmanager\MoreLinq\Pipe.cs" />
+    <Compile Include="ADBmanager\MoreLinq\Prepend.cs" />
+    <Compile Include="ADBmanager\MoreLinq\PreScan.cs" />
+    <Compile Include="ADBmanager\MoreLinq\SequenceException.cs" />
+    <Compile Include="ADBmanager\MoreLinq\ThrowIf.cs" />
+    <Compile Include="ADBmanager\MountPoint.cs" />
+    <Compile Include="ADBmanager\NullSyncProgressMonitor.cs" />
+    <Compile Include="ADBmanager\PackageManager.cs" />
+    <Compile Include="ADBmanager\RawImage.cs" />
+    <Compile Include="ADBmanager\Receivers\BatteryReceiver.cs" />
+    <Compile Include="ADBmanager\Receivers\CommandErrorReceiver.cs" />
+    <Compile Include="ADBmanager\Receivers\CommandResultReceiver.cs" />
+    <Compile Include="ADBmanager\Receivers\ConsoleOutputReceiver.cs" />
+    <Compile Include="ADBmanager\Receivers\EnvironmentVariablesReceiver.cs" />
+    <Compile Include="ADBmanager\Receivers\ExecuteShellReceiver.cs" />
+    <Compile Include="ADBmanager\Receivers\GetPropReceiver.cs" />
+    <Compile Include="ADBmanager\Receivers\IListingReceiver.cs" />
+    <Compile Include="ADBmanager\Receivers\InstallReceiver.cs" />
+    <Compile Include="ADBmanager\Receivers\IShellOutputReceiver.cs" />
+    <Compile Include="ADBmanager\Receivers\LinkResoverReceiver.cs" />
+    <Compile Include="ADBmanager\Receivers\ListFileReceiver.cs" />
+    <Compile Include="ADBmanager\Receivers\ListingServiceReceiver.cs" />
+    <Compile Include="ADBmanager\Receivers\MountPointReceiver.cs" />
+    <Compile Include="ADBmanager\Receivers\MultilineReceiver.cs" />
+    <Compile Include="ADBmanager\Receivers\NullOutputReceiver.cs" />
+    <Compile Include="ADBmanager\Receivers\PackageManagerReceiver.cs" />
+    <Compile Include="ADBmanager\SyncResult.cs" />
+    <Compile Include="ADBmanager\SyncService.cs" />
+    <Compile Include="App\Config.cs" />
+    <Compile Include="ctControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctControl.Designer.cs">
+      <DependentUpon>ctControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctDevice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctDevice.Designer.cs">
+      <DependentUpon>ctDevice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctDocument.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctDocument.Designer.cs">
+      <DependentUpon>ctDocument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctFillContactCallLog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctFillContactCallLog.Designer.cs">
+      <DependentUpon>ctFillContactCallLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctFillFileMedia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctFillFileMedia.Designer.cs">
+      <DependentUpon>ctFillFileMedia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctFillFullMemory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctFillFullMemory.Designer.cs">
+      <DependentUpon>ctFillFullMemory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctFillData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctFillData.Designer.cs">
+      <DependentUpon>ctFillData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctInstallApk.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctInstallApk.Designer.cs">
+      <DependentUpon>ctInstallApk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctInstallApkFromLink.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctInstallApkFromLink.Designer.cs">
+      <DependentUpon>ctInstallApkFromLink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctInstallApkFromLocal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctInstallApkFromLocal.Designer.cs">
+      <DependentUpon>ctInstallApkFromLocal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctInstallMultipleDevice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctInstallMultipleDevice.Designer.cs">
+      <DependentUpon>ctInstallMultipleDevice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctListMultipleDevice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctListMultipleDevice.Designer.cs">
+      <DependentUpon>ctListMultipleDevice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctListOfDevice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctListOfDevice.Designer.cs">
+      <DependentUpon>ctListOfDevice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctMyFile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctMyFile.Designer.cs">
+      <DependentUpon>ctMyFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctPackageMgr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctPackageMgr.designer.cs">
+      <DependentUpon>ctPackageMgr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctSendFile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctSendFile.Designer.cs">
+      <DependentUpon>ctSendFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctSetting.designer.cs">
+      <DependentUpon>ctSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctWhatsNew.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctWhatsNew.Designer.cs">
+      <DependentUpon>ctWhatsNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataConfig.cs" />
+    <Compile Include="frmFormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFormMain.Designer.cs">
+      <DependentUpon>frmFormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInstallMultipleDevice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInstallMultipleDevice.Designer.cs">
+      <DependentUpon>frmInstallMultipleDevice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Progress\frmProgressOneItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Progress\frmProgressOneItem.Designer.cs">
+      <DependentUpon>frmProgressOneItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Progress\frmProgressManyItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Progress\frmProgressManyItem.Designer.cs">
+      <DependentUpon>frmProgressManyItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFormInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFormInput.Designer.cs">
+      <DependentUpon>frmFormInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWhatsNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWhatsNew.Designer.cs">
+      <DependentUpon>frmWhatsNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SyncImplement.cs" />
+    <Compile Include="Utils\UtilEvent.cs" />
+    <Compile Include="Utils\UtilInstall.cs" />
+    <Compile Include="Utils\UtilLog.cs" />
+    <Compile Include="Utils\UtilMemory.cs" />
+    <Compile Include="Utils\UtilMessage.cs" />
+    <Compile Include="Constant.cs" />
+    <Compile Include="Utils\UtilPermission.cs" />
+    <Compile Include="Utils\UtilThread.cs" />
+    <EmbeddedResource Include="ctControl.resx">
+      <DependentUpon>ctControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctDevice.resx">
+      <DependentUpon>ctDevice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctDocument.resx">
+      <DependentUpon>ctDocument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctFillContactCallLog.resx">
+      <DependentUpon>ctFillContactCallLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctFillFileMedia.resx">
+      <DependentUpon>ctFillFileMedia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctFillFullMemory.resx">
+      <DependentUpon>ctFillFullMemory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctFillData.resx">
+      <DependentUpon>ctFillData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctInstallApk.resx">
+      <DependentUpon>ctInstallApk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctInstallApkFromLink.resx">
+      <DependentUpon>ctInstallApkFromLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctInstallApkFromLocal.resx">
+      <DependentUpon>ctInstallApkFromLocal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctInstallMultipleDevice.resx">
+      <DependentUpon>ctInstallMultipleDevice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctListMultipleDevice.resx">
+      <DependentUpon>ctListMultipleDevice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctListOfDevice.resx">
+      <DependentUpon>ctListOfDevice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctMyFile.resx">
+      <DependentUpon>ctMyFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctPackageMgr.resx">
+      <DependentUpon>ctPackageMgr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctSendFile.resx">
+      <DependentUpon>ctSendFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctSetting.resx">
+      <DependentUpon>ctSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctWhatsNew.resx">
+      <DependentUpon>ctWhatsNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFormMain.resx">
+      <DependentUpon>frmFormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInstallMultipleDevice.resx">
+      <DependentUpon>frmInstallMultipleDevice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Progress\frmProgressOneItem.resx">
+      <DependentUpon>frmProgressOneItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Progress\frmProgressManyItem.resx">
+      <DependentUpon>frmProgressManyItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFormInput.resx">
+      <DependentUpon>frmFormInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWhatsNew.resx">
+      <DependentUpon>frmWhatsNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Android_Utility_TemporaryKey.pfx" />
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1446820854_android_online_social_media.ico" />
+    <Content Include="ADBmanager\MoreLinq\MoreLinq-License.txt" />
+    <None Include="Resources\AndroidUtility.apk" />
+    <None Include="Resources\test.html" />
+    <None Include="Resources\android.ico" />
+    <None Include="Resources\MB__Apps.png" />
+    <None Include="Resources\btn_unfold_o.png" />
+    <None Include="Resources\adb.exe" />
+    <None Include="Resources\AdbWinApi.dll" />
+    <None Include="Resources\AdbWinUsbApi.dll" />
+    <None Include="bin\Debug\MLLibv1010.dll" />
+    <None Include="Resources\MLLibv1010.dll" />
+    <Content Include="Resources\refresh-128 %281%29.png" />
+    <None Include="Resources\go-next-128.png" />
+    <None Include="Resources\home-128.png" />
+    <None Include="Resources\arrow-forward-128.png" />
+    <None Include="Resources\arrow-back-128.png" />
+    <None Include="Resources\18ixdorz2ibjgjpg.jpg" />
+    <None Include="Resources\1446820849_android_online_social_media.png" />
+    <None Include="Resources\1446820679_android.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MLLib\MLLibv1010.csproj">
+      <Project>{0baeb406-2ec4-45f8-b2ba-b5730e82c5c7}</Project>
+      <Name>MLLibv1010</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
