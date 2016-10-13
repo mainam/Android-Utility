@@ -467,9 +467,6 @@
     <None Include="Resources\btn_pin_o.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Debug\MLLibv1_5.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\next_4-128.png" />
   </ItemGroup>
   <ItemGroup>
@@ -480,6 +477,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\right-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

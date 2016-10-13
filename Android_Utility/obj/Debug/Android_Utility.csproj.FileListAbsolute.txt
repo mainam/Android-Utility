@@ -36,3 +36,4 @@ D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android Utility.exe.manifest
 D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android Utility.application
 D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android Utility.exe
 D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android Utility.pdb
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.ctEnableTCPIP.resources

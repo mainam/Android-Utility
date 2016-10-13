@@ -188,7 +188,7 @@ namespace MLLib.Controls
 
             private void numeric_ValueChanged(object sender, EventArgs e)
             {
-                Captions.Invalidate();
+                Captions.   Invalidate();
                 Captions.Update();
             }
 

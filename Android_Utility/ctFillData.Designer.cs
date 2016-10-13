@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.tabFillData = new MLLib.Controls.ctTabControl();
-            this.tpFillFileMedia = new MLLib.Controls.TabPageEx();
             this.tpFillContactCallLogSMS = new MLLib.Controls.TabPageEx();
+            this.tpFillFileMedia = new MLLib.Controls.TabPageEx();
             this.tpFillFullMemory = new MLLib.Controls.TabPageEx();
             this.tabFillData.SuspendLayout();
             this.SuspendLayout();
@@ -65,17 +65,6 @@
             this.tabFillData.UpDownStyle = MLLib.Controls.ctTabControl.UpDown32Style.Default;
             this.tabFillData.SelectedIndexChanged += new System.EventHandler(this.tabSelectTypeFill_SelectedIndexChanged);
             // 
-            // tpFillFileMedia
-            // 
-            this.tpFillFileMedia.BackColor = System.Drawing.Color.White;
-            this.tpFillFileMedia.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.tpFillFileMedia.IsClosable = false;
-            this.tpFillFileMedia.Location = new System.Drawing.Point(1, 1);
-            this.tpFillFileMedia.Name = "tpFillFileMedia";
-            this.tpFillFileMedia.Size = new System.Drawing.Size(650, 374);
-            this.tpFillFileMedia.TabIndex = 1;
-            this.tpFillFileMedia.Text = "Fill File && Media";
-            // 
             // tpFillContactCallLogSMS
             // 
             this.tpFillContactCallLogSMS.BackColor = System.Drawing.Color.White;
@@ -86,6 +75,17 @@
             this.tpFillContactCallLogSMS.Size = new System.Drawing.Size(650, 374);
             this.tpFillContactCallLogSMS.TabIndex = 2;
             this.tpFillContactCallLogSMS.Text = "Fill Contact - Call Log - SMS";
+            // 
+            // tpFillFileMedia
+            // 
+            this.tpFillFileMedia.BackColor = System.Drawing.Color.White;
+            this.tpFillFileMedia.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.tpFillFileMedia.IsClosable = false;
+            this.tpFillFileMedia.Location = new System.Drawing.Point(1, 1);
+            this.tpFillFileMedia.Name = "tpFillFileMedia";
+            this.tpFillFileMedia.Size = new System.Drawing.Size(650, 374);
+            this.tpFillFileMedia.TabIndex = 1;
+            this.tpFillFileMedia.Text = "Fill File && Media";
             // 
             // tpFillFullMemory
             // 

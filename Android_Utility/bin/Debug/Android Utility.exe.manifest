@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Android Utility.exe" size="6588416">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Android Utility.exe" size="6589952">
       <assemblyIdentity name="Android Utility" version="1.0.2.5" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>C0ecI6Ar6LdGtCzVtrzMGeyuqCpy/8XsLsWk3Z2L4FA=</dsig:DigestValue>
+        <dsig:DigestValue>NygIDHWpL+QeqfmsQ4QDrtZNZb+Av0ZalYoL3hnbETg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,7 +62,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>bmIeNx3hj2Q/kRom1rzkaopMWEJRhdFTVU/OZFWgmXs=</dsig:DigestValue>
+        <dsig:DigestValue>lkVV6vn44nu3/ke70feRbcbG9RW+HFYawCdbGUXu9Pg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

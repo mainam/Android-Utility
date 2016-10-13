@@ -109,7 +109,8 @@ namespace Managed.Adb
         /// <summary>
         /// Device list info regex
         /// </summary>
-        private const String RE_DEVICELIST_INFO = @"^([a-z0-9_-]+(?:\s[a-z0-9_-]+)?)\s+(device|offline|unknown|bootloader|recovery|download)$";
+        //private const String RE_DEVICELIST_INFO = @"^([a-z0-9_-]+(?:\s[a-z0-9_-]+)?)\s+(device|offline|unknown|bootloader|recovery|download)$";
+        private const String RE_DEVICELIST_INFO = @"^((\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}:\d+)|([a-z0-9_-]+)(?:\s[a-z0-9_-]+)?)\s+(device|offline|unknown|bootloader|recovery|download)$";
         /// <summary>
         /// Tag
         /// </summary>
@@ -207,7 +208,7 @@ namespace Managed.Adb
             Match m = re.Match(data);
             if (m.Success)
             {
-                return new Device(m.Groups[1].Value, GetStateFromString(m.Groups[2].Value));
+                return new Device(m.Groups[1].Value, GetStateFromString(m.Groups[4].Value));
 
             }
             else

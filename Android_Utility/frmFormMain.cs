@@ -307,6 +307,17 @@ namespace Android_Utility
                     return;
                 }
 
+
+
+                if (tab == tpEnableTCPIP)
+                {
+                    ctEnableTCPIP enableTCPIP = new ctEnableTCPIP(utilEvent);
+                    enableTCPIP.ListOfDevice = listofdevice;
+                    enableTCPIP.Dock = DockStyle.Fill;
+                    tab.Controls.Add(enableTCPIP);
+                    return;
+                }
+
                 if (tab == tpPackage)
                 {
                     ctPackageMgr package = new ctPackageMgr();

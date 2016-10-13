@@ -213,6 +213,12 @@
     <Compile Include="ctDocument.Designer.cs">
       <DependentUpon>ctDocument.cs</DependentUpon>
     </Compile>
+    <Compile Include="ctEnableTCPIP.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctEnableTCPIP.Designer.cs">
+      <DependentUpon>ctEnableTCPIP.cs</DependentUpon>
+    </Compile>
     <Compile Include="ctFillContactCallLog.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -365,6 +371,9 @@
     <EmbeddedResource Include="ctDocument.resx">
       <DependentUpon>ctDocument.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ctEnableTCPIP.resx">
+      <DependentUpon>ctEnableTCPIP.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ctFillContactCallLog.resx">
       <DependentUpon>ctFillContactCallLog.cs</DependentUpon>
     </EmbeddedResource>
@@ -449,7 +458,6 @@
     <Content Include="1446820854_android_online_social_media.ico" />
     <Content Include="ADBmanager\MoreLinq\MoreLinq-License.txt" />
     <None Include="Resources\AndroidUtility.apk" />
-    <None Include="Resources\test.html" />
     <None Include="Resources\android.ico" />
     <None Include="Resources\MB__Apps.png" />
     <None Include="Resources\btn_unfold_o.png" />

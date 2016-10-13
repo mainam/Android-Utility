@@ -46,6 +46,7 @@
             this.tabLog = new MLLib.Controls.ctTabControl();
             this.tabPage5 = new MLLib.Controls.TabPageEx();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.tpEnableTCPIP = new MLLib.Controls.TabPageEx();
             this.panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -165,14 +166,15 @@
             this.tabFunction.BackgroundHatcher.HatchType = System.Drawing.Drawing2D.HatchStyle.LightDownwardDiagonal;
             this.tabFunction.BorderColor = System.Drawing.Color.SteelBlue;
             this.tabFunction.Controls.Add(this.tpInstall);
+            this.tabFunction.Controls.Add(this.tpControls);
+            this.tabFunction.Controls.Add(this.tpEnableTCPIP);
+            this.tabFunction.Controls.Add(this.tpWhatsNew);
             this.tabFunction.Controls.Add(this.tpFillData);
             this.tabFunction.Controls.Add(this.tpPackage);
             this.tabFunction.Controls.Add(this.tpMyFile);
             this.tabFunction.Controls.Add(this.tpSendFile);
-            this.tabFunction.Controls.Add(this.tpControls);
             this.tabFunction.Controls.Add(this.tpSetting);
             this.tabFunction.Controls.Add(this.tpDocument);
-            this.tabFunction.Controls.Add(this.tpWhatsNew);
             this.tabFunction.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabFunction.HeaderStyle = MLLib.Controls.ctTabControl.TabHeaderStyle.Hatch;
             this.tabFunction.IsCaptionVisible = false;
@@ -180,7 +182,7 @@
             this.tabFunction.ItemSize = new System.Drawing.Size(0, 35);
             this.tabFunction.Location = new System.Drawing.Point(0, 0);
             this.tabFunction.Name = "tabFunction";
-            this.tabFunction.SelectedIndex = 0;
+            this.tabFunction.SelectedIndex = 9;
             this.tabFunction.Size = new System.Drawing.Size(985, 410);
             this.tabFunction.TabGradient.ColorEnd = System.Drawing.Color.White;
             this.tabFunction.TabIndex = 8;
@@ -260,7 +262,7 @@
             this.tpControls.IsClosable = false;
             this.tpControls.Location = new System.Drawing.Point(5, 41);
             this.tpControls.Name = "tpControls";
-            this.tpControls.Size = new System.Drawing.Size(277, 63);
+            this.tpControls.Size = new System.Drawing.Size(975, 364);
             this.tpControls.TabIndex = 7;
             this.tpControls.Text = "Control";
             // 
@@ -295,7 +297,7 @@
             this.tpWhatsNew.IsClosable = false;
             this.tpWhatsNew.Location = new System.Drawing.Point(5, 41);
             this.tpWhatsNew.Name = "tpWhatsNew";
-            this.tpWhatsNew.Size = new System.Drawing.Size(277, 63);
+            this.tpWhatsNew.Size = new System.Drawing.Size(975, 364);
             this.tpWhatsNew.TabIndex = 10;
             this.tpWhatsNew.Text = "What\'s New";
             // 
@@ -349,6 +351,16 @@
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
             // 
+            // tpEnableTCPIP
+            // 
+            this.tpEnableTCPIP.BackColor = System.Drawing.Color.White;
+            this.tpEnableTCPIP.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.tpEnableTCPIP.Location = new System.Drawing.Point(5, 41);
+            this.tpEnableTCPIP.Name = "tpEnableTCPIP";
+            this.tpEnableTCPIP.Size = new System.Drawing.Size(975, 364);
+            this.tpEnableTCPIP.TabIndex = 12;
+            this.tpEnableTCPIP.Text = "Enable TCP IP";
+            // 
             // frmFormMain
             // 
             this.AllowClose = true;
@@ -401,5 +413,6 @@
         private MLLib.Controls.TabPageEx tpDocument;
         private MLLib.Controls.TabPageEx tpWhatsNew;
         private MLLib.Controls.TabPageEx tpFillData;
+        private MLLib.Controls.TabPageEx tpEnableTCPIP;
     }
 }
