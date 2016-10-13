@@ -1,0 +1,38 @@
+D:\GIT\Android-Utility\Android_Utility\bin\Debug\Android Utility.exe.config
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.csprojResolveAssemblyReference.cache
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.ctControl.resources
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.ctDevice.resources
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.ctDocument.resources
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.ctFillContactCallLog.resources
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.ctFillFileMedia.resources
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.ctFillFullMemory.resources
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.ctFillData.resources
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.ctInstallApk.resources
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.ctInstallApkFromLink.resources
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.ctInstallApkFromLocal.resources
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.ctInstallMultipleDevice.resources
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.ctListMultipleDevice.resources
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.ctListOfDevice.resources
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.ctMyFile.resources
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.ctPackageMgr.resources
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.ctSendFile.resources
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.ctSetting.resources
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.ctWhatsNew.resources
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.frmFormMain.resources
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.frmInstallMultipleDevice.resources
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.Progress.frmProgressOneItem.resources
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.Progress.frmProgressManyItem.resources
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.frmFormInput.resources
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.frmWhatsNew.resources
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.csproj.GenerateResource.Cache
+D:\GIT\Android-Utility\Android_Utility\bin\Debug\Android Utility.exe.manifest
+D:\GIT\Android-Utility\Android_Utility\bin\Debug\Android Utility.application
+D:\GIT\Android-Utility\Android_Utility\bin\Debug\Android Utility.exe
+D:\GIT\Android-Utility\Android_Utility\bin\Debug\Android Utility.pdb
+D:\GIT\Android-Utility\Android_Utility\bin\Debug\MLLibv1010.dll
+D:\GIT\Android-Utility\Android_Utility\bin\Debug\MLLibv1010.pdb
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android_Utility.Properties.Resources.resources
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android Utility.exe.manifest
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android Utility.application
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android Utility.exe
+D:\GIT\Android-Utility\Android_Utility\obj\Debug\Android Utility.pdb
