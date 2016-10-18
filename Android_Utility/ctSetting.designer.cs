@@ -33,32 +33,38 @@
             this.label2 = new System.Windows.Forms.Label();
             this.ctBreakLine4 = new MLLib.Controls.ctBreakLine();
             this.ctPanel3 = new MLLib.Controls.ctPanel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.btnSaveSettingFolderPushAPK = new MLLib.Controls.ctButton();
-            this.btnCancelSettingFolderPushAPK = new MLLib.Controls.ctButton();
             this.txtFolderTempPushApk = new MLLib.Controls.ctTextBox();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.btnCancelSettingFolderPushAPK = new MLLib.Controls.ctButton();
+            this.btnSaveSettingFolderPushAPK = new MLLib.Controls.ctButton();
             this.label3 = new System.Windows.Forms.Label();
             this.ctBreakLine5 = new MLLib.Controls.ctBreakLine();
             this.ctPanel4 = new MLLib.Controls.ctPanel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.btnSaveFolderSaveApk = new MLLib.Controls.ctButton();
-            this.btnCancelFolderSaveApk = new MLLib.Controls.ctButton();
             this.txtFolderSaveApk = new MLLib.Controls.ctOpenFileDialog();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.btnCancelFolderSaveApk = new MLLib.Controls.ctButton();
+            this.btnSaveFolderSaveApk = new MLLib.Controls.ctButton();
             this.label4 = new System.Windows.Forms.Label();
             this.ctBreakLine6 = new MLLib.Controls.ctBreakLine();
             this.ctPanel5 = new MLLib.Controls.ctPanel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.btnSaveFolderDefaultSendFile = new MLLib.Controls.ctButton();
-            this.btnCancelFolderDefaultSendFile = new MLLib.Controls.ctButton();
             this.txtFolderDefaultSendFile = new MLLib.Controls.ctTextBox();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.btnCancelFolderDefaultSendFile = new MLLib.Controls.ctButton();
+            this.btnSaveFolderDefaultSendFile = new MLLib.Controls.ctButton();
             this.label5 = new System.Windows.Forms.Label();
             this.ctBreakLine1 = new MLLib.Controls.ctBreakLine();
             this.ctPanel6 = new MLLib.Controls.ctPanel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.btnSaveDefaultFolderMyFile = new MLLib.Controls.ctButton();
-            this.btnCancelFolderDefaultMyFile = new MLLib.Controls.ctButton();
             this.txtFolderDefaultMyFile = new MLLib.Controls.ctTextBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.btnCancelFolderDefaultMyFile = new MLLib.Controls.ctButton();
+            this.btnSaveDefaultFolderMyFile = new MLLib.Controls.ctButton();
             this.ctPanel1 = new MLLib.Controls.ctPanel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.ctPanel2 = new MLLib.Controls.ctPanel();
+            this.txtServerLink = new MLLib.Controls.ctTextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnCancelServerLink = new MLLib.Controls.ctButton();
+            this.btnSaveServerLink = new MLLib.Controls.ctButton();
             this.ctPanel3.SuspendLayout();
             this.panel5.SuspendLayout();
             this.ctPanel4.SuspendLayout();
@@ -68,6 +74,8 @@
             this.ctPanel6.SuspendLayout();
             this.panel2.SuspendLayout();
             this.ctPanel1.SuspendLayout();
+            this.ctPanel2.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // ctBreakLine2
@@ -121,44 +129,6 @@
             this.ctPanel3.Size = new System.Drawing.Size(745, 67);
             this.ctPanel3.TabIndex = 14;
             // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.btnCancelSettingFolderPushAPK);
-            this.panel5.Controls.Add(this.btnSaveSettingFolderPushAPK);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel5.Location = new System.Drawing.Point(3, 36);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(739, 28);
-            this.panel5.TabIndex = 13;
-            // 
-            // btnSaveSettingFolderPushAPK
-            // 
-            this.btnSaveSettingFolderPushAPK.ButtonBackgroundColor = System.Drawing.Color.Transparent;
-            this.btnSaveSettingFolderPushAPK.ButtonBorderColor = System.Drawing.Color.Empty;
-            this.btnSaveSettingFolderPushAPK.ButtonBorderSize = 1;
-            this.btnSaveSettingFolderPushAPK.ButtonDataText = "Save";
-            this.btnSaveSettingFolderPushAPK.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnSaveSettingFolderPushAPK.Location = new System.Drawing.Point(687, 0);
-            this.btnSaveSettingFolderPushAPK.Name = "btnSaveSettingFolderPushAPK";
-            this.btnSaveSettingFolderPushAPK.Padding = new System.Windows.Forms.Padding(3, 3, 0, 0);
-            this.btnSaveSettingFolderPushAPK.Size = new System.Drawing.Size(52, 28);
-            this.btnSaveSettingFolderPushAPK.TabIndex = 1;
-            this.btnSaveSettingFolderPushAPK.Click += new System.EventHandler(this.btnSaveSettingFolderPushAPK_Click);
-            // 
-            // btnCancelSettingFolderPushAPK
-            // 
-            this.btnCancelSettingFolderPushAPK.ButtonBackgroundColor = System.Drawing.Color.Transparent;
-            this.btnCancelSettingFolderPushAPK.ButtonBorderColor = System.Drawing.Color.Empty;
-            this.btnCancelSettingFolderPushAPK.ButtonBorderSize = 1;
-            this.btnCancelSettingFolderPushAPK.ButtonDataText = "Cancel";
-            this.btnCancelSettingFolderPushAPK.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnCancelSettingFolderPushAPK.Location = new System.Drawing.Point(635, 0);
-            this.btnCancelSettingFolderPushAPK.Name = "btnCancelSettingFolderPushAPK";
-            this.btnCancelSettingFolderPushAPK.Padding = new System.Windows.Forms.Padding(3, 3, 0, 0);
-            this.btnCancelSettingFolderPushAPK.Size = new System.Drawing.Size(52, 28);
-            this.btnCancelSettingFolderPushAPK.TabIndex = 0;
-            this.btnCancelSettingFolderPushAPK.Click += new System.EventHandler(this.btnCancelSettingFolderPushAPK_Click);
-            // 
             // txtFolderTempPushApk
             // 
             this.txtFolderTempPushApk.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
@@ -181,6 +151,44 @@
             this.txtFolderTempPushApk.TextHint = "Folder in Device: ";
             this.txtFolderTempPushApk.TextHintColor = System.Drawing.SystemColors.ControlText;
             this.txtFolderTempPushApk.TextHintWidth = 150;
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.btnCancelSettingFolderPushAPK);
+            this.panel5.Controls.Add(this.btnSaveSettingFolderPushAPK);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel5.Location = new System.Drawing.Point(3, 36);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(739, 28);
+            this.panel5.TabIndex = 13;
+            // 
+            // btnCancelSettingFolderPushAPK
+            // 
+            this.btnCancelSettingFolderPushAPK.ButtonBackgroundColor = System.Drawing.Color.Transparent;
+            this.btnCancelSettingFolderPushAPK.ButtonBorderColor = System.Drawing.Color.Empty;
+            this.btnCancelSettingFolderPushAPK.ButtonBorderSize = 1;
+            this.btnCancelSettingFolderPushAPK.ButtonDataText = "Cancel";
+            this.btnCancelSettingFolderPushAPK.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnCancelSettingFolderPushAPK.Location = new System.Drawing.Point(635, 0);
+            this.btnCancelSettingFolderPushAPK.Name = "btnCancelSettingFolderPushAPK";
+            this.btnCancelSettingFolderPushAPK.Padding = new System.Windows.Forms.Padding(3, 3, 0, 0);
+            this.btnCancelSettingFolderPushAPK.Size = new System.Drawing.Size(52, 28);
+            this.btnCancelSettingFolderPushAPK.TabIndex = 0;
+            this.btnCancelSettingFolderPushAPK.Click += new System.EventHandler(this.btnCancelSettingFolderPushAPK_Click);
+            // 
+            // btnSaveSettingFolderPushAPK
+            // 
+            this.btnSaveSettingFolderPushAPK.ButtonBackgroundColor = System.Drawing.Color.Transparent;
+            this.btnSaveSettingFolderPushAPK.ButtonBorderColor = System.Drawing.Color.Empty;
+            this.btnSaveSettingFolderPushAPK.ButtonBorderSize = 1;
+            this.btnSaveSettingFolderPushAPK.ButtonDataText = "Save";
+            this.btnSaveSettingFolderPushAPK.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnSaveSettingFolderPushAPK.Location = new System.Drawing.Point(687, 0);
+            this.btnSaveSettingFolderPushAPK.Name = "btnSaveSettingFolderPushAPK";
+            this.btnSaveSettingFolderPushAPK.Padding = new System.Windows.Forms.Padding(3, 3, 0, 0);
+            this.btnSaveSettingFolderPushAPK.Size = new System.Drawing.Size(52, 28);
+            this.btnSaveSettingFolderPushAPK.TabIndex = 1;
+            this.btnSaveSettingFolderPushAPK.Click += new System.EventHandler(this.btnSaveSettingFolderPushAPK_Click);
             // 
             // label3
             // 
@@ -222,44 +230,6 @@
             this.ctPanel4.Size = new System.Drawing.Size(745, 67);
             this.ctPanel4.TabIndex = 17;
             // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.btnCancelFolderSaveApk);
-            this.panel4.Controls.Add(this.btnSaveFolderSaveApk);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(3, 36);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(739, 28);
-            this.panel4.TabIndex = 13;
-            // 
-            // btnSaveFolderSaveApk
-            // 
-            this.btnSaveFolderSaveApk.ButtonBackgroundColor = System.Drawing.Color.Transparent;
-            this.btnSaveFolderSaveApk.ButtonBorderColor = System.Drawing.Color.Empty;
-            this.btnSaveFolderSaveApk.ButtonBorderSize = 1;
-            this.btnSaveFolderSaveApk.ButtonDataText = "Save";
-            this.btnSaveFolderSaveApk.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnSaveFolderSaveApk.Location = new System.Drawing.Point(687, 0);
-            this.btnSaveFolderSaveApk.Name = "btnSaveFolderSaveApk";
-            this.btnSaveFolderSaveApk.Padding = new System.Windows.Forms.Padding(3, 3, 0, 0);
-            this.btnSaveFolderSaveApk.Size = new System.Drawing.Size(52, 28);
-            this.btnSaveFolderSaveApk.TabIndex = 1;
-            this.btnSaveFolderSaveApk.Click += new System.EventHandler(this.btnSaveFolderSaveApk_Click);
-            // 
-            // btnCancelFolderSaveApk
-            // 
-            this.btnCancelFolderSaveApk.ButtonBackgroundColor = System.Drawing.Color.Transparent;
-            this.btnCancelFolderSaveApk.ButtonBorderColor = System.Drawing.Color.Empty;
-            this.btnCancelFolderSaveApk.ButtonBorderSize = 1;
-            this.btnCancelFolderSaveApk.ButtonDataText = "Cancel";
-            this.btnCancelFolderSaveApk.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnCancelFolderSaveApk.Location = new System.Drawing.Point(635, 0);
-            this.btnCancelFolderSaveApk.Name = "btnCancelFolderSaveApk";
-            this.btnCancelFolderSaveApk.Padding = new System.Windows.Forms.Padding(3, 3, 0, 0);
-            this.btnCancelFolderSaveApk.Size = new System.Drawing.Size(52, 28);
-            this.btnCancelFolderSaveApk.TabIndex = 0;
-            this.btnCancelFolderSaveApk.Click += new System.EventHandler(this.btnCancelFolderSaveApk_Click);
-            // 
             // txtFolderSaveApk
             // 
             this.txtFolderSaveApk.BrowserButtonBackColor = System.Drawing.Color.Cyan;
@@ -279,6 +249,44 @@
             this.txtFolderSaveApk.TabIndex = 0;
             this.txtFolderSaveApk.Type = MLLib.Controls.ctOpenFileDialog.TypeControl.SelectFolder;
             this.txtFolderSaveApk.Value = "C:\\Windows\\Temp\\";
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.btnCancelFolderSaveApk);
+            this.panel4.Controls.Add(this.btnSaveFolderSaveApk);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel4.Location = new System.Drawing.Point(3, 36);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(739, 28);
+            this.panel4.TabIndex = 13;
+            // 
+            // btnCancelFolderSaveApk
+            // 
+            this.btnCancelFolderSaveApk.ButtonBackgroundColor = System.Drawing.Color.Transparent;
+            this.btnCancelFolderSaveApk.ButtonBorderColor = System.Drawing.Color.Empty;
+            this.btnCancelFolderSaveApk.ButtonBorderSize = 1;
+            this.btnCancelFolderSaveApk.ButtonDataText = "Cancel";
+            this.btnCancelFolderSaveApk.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnCancelFolderSaveApk.Location = new System.Drawing.Point(635, 0);
+            this.btnCancelFolderSaveApk.Name = "btnCancelFolderSaveApk";
+            this.btnCancelFolderSaveApk.Padding = new System.Windows.Forms.Padding(3, 3, 0, 0);
+            this.btnCancelFolderSaveApk.Size = new System.Drawing.Size(52, 28);
+            this.btnCancelFolderSaveApk.TabIndex = 0;
+            this.btnCancelFolderSaveApk.Click += new System.EventHandler(this.btnCancelFolderSaveApk_Click);
+            // 
+            // btnSaveFolderSaveApk
+            // 
+            this.btnSaveFolderSaveApk.ButtonBackgroundColor = System.Drawing.Color.Transparent;
+            this.btnSaveFolderSaveApk.ButtonBorderColor = System.Drawing.Color.Empty;
+            this.btnSaveFolderSaveApk.ButtonBorderSize = 1;
+            this.btnSaveFolderSaveApk.ButtonDataText = "Save";
+            this.btnSaveFolderSaveApk.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnSaveFolderSaveApk.Location = new System.Drawing.Point(687, 0);
+            this.btnSaveFolderSaveApk.Name = "btnSaveFolderSaveApk";
+            this.btnSaveFolderSaveApk.Padding = new System.Windows.Forms.Padding(3, 3, 0, 0);
+            this.btnSaveFolderSaveApk.Size = new System.Drawing.Size(52, 28);
+            this.btnSaveFolderSaveApk.TabIndex = 1;
+            this.btnSaveFolderSaveApk.Click += new System.EventHandler(this.btnSaveFolderSaveApk_Click);
             // 
             // label4
             // 
@@ -320,44 +328,6 @@
             this.ctPanel5.Size = new System.Drawing.Size(745, 67);
             this.ctPanel5.TabIndex = 20;
             // 
-            // panel6
-            // 
-            this.panel6.Controls.Add(this.btnCancelFolderDefaultSendFile);
-            this.panel6.Controls.Add(this.btnSaveFolderDefaultSendFile);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel6.Location = new System.Drawing.Point(3, 36);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(739, 28);
-            this.panel6.TabIndex = 13;
-            // 
-            // btnSaveFolderDefaultSendFile
-            // 
-            this.btnSaveFolderDefaultSendFile.ButtonBackgroundColor = System.Drawing.Color.Transparent;
-            this.btnSaveFolderDefaultSendFile.ButtonBorderColor = System.Drawing.Color.Empty;
-            this.btnSaveFolderDefaultSendFile.ButtonBorderSize = 1;
-            this.btnSaveFolderDefaultSendFile.ButtonDataText = "Save";
-            this.btnSaveFolderDefaultSendFile.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnSaveFolderDefaultSendFile.Location = new System.Drawing.Point(687, 0);
-            this.btnSaveFolderDefaultSendFile.Name = "btnSaveFolderDefaultSendFile";
-            this.btnSaveFolderDefaultSendFile.Padding = new System.Windows.Forms.Padding(3, 3, 0, 0);
-            this.btnSaveFolderDefaultSendFile.Size = new System.Drawing.Size(52, 28);
-            this.btnSaveFolderDefaultSendFile.TabIndex = 1;
-            this.btnSaveFolderDefaultSendFile.Click += new System.EventHandler(this.btnSaveFolderDefaultSendFile_Click);
-            // 
-            // btnCancelFolderDefaultSendFile
-            // 
-            this.btnCancelFolderDefaultSendFile.ButtonBackgroundColor = System.Drawing.Color.Transparent;
-            this.btnCancelFolderDefaultSendFile.ButtonBorderColor = System.Drawing.Color.Empty;
-            this.btnCancelFolderDefaultSendFile.ButtonBorderSize = 1;
-            this.btnCancelFolderDefaultSendFile.ButtonDataText = "Cancel";
-            this.btnCancelFolderDefaultSendFile.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnCancelFolderDefaultSendFile.Location = new System.Drawing.Point(635, 0);
-            this.btnCancelFolderDefaultSendFile.Name = "btnCancelFolderDefaultSendFile";
-            this.btnCancelFolderDefaultSendFile.Padding = new System.Windows.Forms.Padding(3, 3, 0, 0);
-            this.btnCancelFolderDefaultSendFile.Size = new System.Drawing.Size(52, 28);
-            this.btnCancelFolderDefaultSendFile.TabIndex = 0;
-            this.btnCancelFolderDefaultSendFile.Click += new System.EventHandler(this.btnCancelFolderDefaultSendFile_Click);
-            // 
             // txtFolderDefaultSendFile
             // 
             this.txtFolderDefaultSendFile.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
@@ -380,6 +350,44 @@
             this.txtFolderDefaultSendFile.TextHint = "Folder in Device: ";
             this.txtFolderDefaultSendFile.TextHintColor = System.Drawing.SystemColors.ControlText;
             this.txtFolderDefaultSendFile.TextHintWidth = 150;
+            // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.btnCancelFolderDefaultSendFile);
+            this.panel6.Controls.Add(this.btnSaveFolderDefaultSendFile);
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel6.Location = new System.Drawing.Point(3, 36);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(739, 28);
+            this.panel6.TabIndex = 13;
+            // 
+            // btnCancelFolderDefaultSendFile
+            // 
+            this.btnCancelFolderDefaultSendFile.ButtonBackgroundColor = System.Drawing.Color.Transparent;
+            this.btnCancelFolderDefaultSendFile.ButtonBorderColor = System.Drawing.Color.Empty;
+            this.btnCancelFolderDefaultSendFile.ButtonBorderSize = 1;
+            this.btnCancelFolderDefaultSendFile.ButtonDataText = "Cancel";
+            this.btnCancelFolderDefaultSendFile.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnCancelFolderDefaultSendFile.Location = new System.Drawing.Point(635, 0);
+            this.btnCancelFolderDefaultSendFile.Name = "btnCancelFolderDefaultSendFile";
+            this.btnCancelFolderDefaultSendFile.Padding = new System.Windows.Forms.Padding(3, 3, 0, 0);
+            this.btnCancelFolderDefaultSendFile.Size = new System.Drawing.Size(52, 28);
+            this.btnCancelFolderDefaultSendFile.TabIndex = 0;
+            this.btnCancelFolderDefaultSendFile.Click += new System.EventHandler(this.btnCancelFolderDefaultSendFile_Click);
+            // 
+            // btnSaveFolderDefaultSendFile
+            // 
+            this.btnSaveFolderDefaultSendFile.ButtonBackgroundColor = System.Drawing.Color.Transparent;
+            this.btnSaveFolderDefaultSendFile.ButtonBorderColor = System.Drawing.Color.Empty;
+            this.btnSaveFolderDefaultSendFile.ButtonBorderSize = 1;
+            this.btnSaveFolderDefaultSendFile.ButtonDataText = "Save";
+            this.btnSaveFolderDefaultSendFile.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnSaveFolderDefaultSendFile.Location = new System.Drawing.Point(687, 0);
+            this.btnSaveFolderDefaultSendFile.Name = "btnSaveFolderDefaultSendFile";
+            this.btnSaveFolderDefaultSendFile.Padding = new System.Windows.Forms.Padding(3, 3, 0, 0);
+            this.btnSaveFolderDefaultSendFile.Size = new System.Drawing.Size(52, 28);
+            this.btnSaveFolderDefaultSendFile.TabIndex = 1;
+            this.btnSaveFolderDefaultSendFile.Click += new System.EventHandler(this.btnSaveFolderDefaultSendFile_Click);
             // 
             // label5
             // 
@@ -421,44 +429,6 @@
             this.ctPanel6.Size = new System.Drawing.Size(745, 67);
             this.ctPanel6.TabIndex = 23;
             // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.btnCancelFolderDefaultMyFile);
-            this.panel2.Controls.Add(this.btnSaveDefaultFolderMyFile);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(3, 36);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(739, 28);
-            this.panel2.TabIndex = 13;
-            // 
-            // btnSaveDefaultFolderMyFile
-            // 
-            this.btnSaveDefaultFolderMyFile.ButtonBackgroundColor = System.Drawing.Color.Transparent;
-            this.btnSaveDefaultFolderMyFile.ButtonBorderColor = System.Drawing.Color.Empty;
-            this.btnSaveDefaultFolderMyFile.ButtonBorderSize = 1;
-            this.btnSaveDefaultFolderMyFile.ButtonDataText = "Save";
-            this.btnSaveDefaultFolderMyFile.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnSaveDefaultFolderMyFile.Location = new System.Drawing.Point(687, 0);
-            this.btnSaveDefaultFolderMyFile.Name = "btnSaveDefaultFolderMyFile";
-            this.btnSaveDefaultFolderMyFile.Padding = new System.Windows.Forms.Padding(3, 3, 0, 0);
-            this.btnSaveDefaultFolderMyFile.Size = new System.Drawing.Size(52, 28);
-            this.btnSaveDefaultFolderMyFile.TabIndex = 1;
-            this.btnSaveDefaultFolderMyFile.Click += new System.EventHandler(this.btnSaveDefaultFolderMyFile_Click);
-            // 
-            // btnCancelFolderDefaultMyFile
-            // 
-            this.btnCancelFolderDefaultMyFile.ButtonBackgroundColor = System.Drawing.Color.Transparent;
-            this.btnCancelFolderDefaultMyFile.ButtonBorderColor = System.Drawing.Color.Empty;
-            this.btnCancelFolderDefaultMyFile.ButtonBorderSize = 1;
-            this.btnCancelFolderDefaultMyFile.ButtonDataText = "Cancel";
-            this.btnCancelFolderDefaultMyFile.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnCancelFolderDefaultMyFile.Location = new System.Drawing.Point(635, 0);
-            this.btnCancelFolderDefaultMyFile.Name = "btnCancelFolderDefaultMyFile";
-            this.btnCancelFolderDefaultMyFile.Padding = new System.Windows.Forms.Padding(3, 3, 0, 0);
-            this.btnCancelFolderDefaultMyFile.Size = new System.Drawing.Size(52, 28);
-            this.btnCancelFolderDefaultMyFile.TabIndex = 0;
-            this.btnCancelFolderDefaultMyFile.Click += new System.EventHandler(this.btnCancelFolderDefaultMyFile_Click);
-            // 
             // txtFolderDefaultMyFile
             // 
             this.txtFolderDefaultMyFile.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
@@ -482,12 +452,52 @@
             this.txtFolderDefaultMyFile.TextHintColor = System.Drawing.SystemColors.ControlText;
             this.txtFolderDefaultMyFile.TextHintWidth = 150;
             // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.btnCancelFolderDefaultMyFile);
+            this.panel2.Controls.Add(this.btnSaveDefaultFolderMyFile);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(3, 36);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(739, 28);
+            this.panel2.TabIndex = 13;
+            // 
+            // btnCancelFolderDefaultMyFile
+            // 
+            this.btnCancelFolderDefaultMyFile.ButtonBackgroundColor = System.Drawing.Color.Transparent;
+            this.btnCancelFolderDefaultMyFile.ButtonBorderColor = System.Drawing.Color.Empty;
+            this.btnCancelFolderDefaultMyFile.ButtonBorderSize = 1;
+            this.btnCancelFolderDefaultMyFile.ButtonDataText = "Cancel";
+            this.btnCancelFolderDefaultMyFile.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnCancelFolderDefaultMyFile.Location = new System.Drawing.Point(635, 0);
+            this.btnCancelFolderDefaultMyFile.Name = "btnCancelFolderDefaultMyFile";
+            this.btnCancelFolderDefaultMyFile.Padding = new System.Windows.Forms.Padding(3, 3, 0, 0);
+            this.btnCancelFolderDefaultMyFile.Size = new System.Drawing.Size(52, 28);
+            this.btnCancelFolderDefaultMyFile.TabIndex = 0;
+            this.btnCancelFolderDefaultMyFile.Click += new System.EventHandler(this.btnCancelFolderDefaultMyFile_Click);
+            // 
+            // btnSaveDefaultFolderMyFile
+            // 
+            this.btnSaveDefaultFolderMyFile.ButtonBackgroundColor = System.Drawing.Color.Transparent;
+            this.btnSaveDefaultFolderMyFile.ButtonBorderColor = System.Drawing.Color.Empty;
+            this.btnSaveDefaultFolderMyFile.ButtonBorderSize = 1;
+            this.btnSaveDefaultFolderMyFile.ButtonDataText = "Save";
+            this.btnSaveDefaultFolderMyFile.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnSaveDefaultFolderMyFile.Location = new System.Drawing.Point(687, 0);
+            this.btnSaveDefaultFolderMyFile.Name = "btnSaveDefaultFolderMyFile";
+            this.btnSaveDefaultFolderMyFile.Padding = new System.Windows.Forms.Padding(3, 3, 0, 0);
+            this.btnSaveDefaultFolderMyFile.Size = new System.Drawing.Size(52, 28);
+            this.btnSaveDefaultFolderMyFile.TabIndex = 1;
+            this.btnSaveDefaultFolderMyFile.Click += new System.EventHandler(this.btnSaveDefaultFolderMyFile_Click);
+            // 
             // ctPanel1
             // 
             this.ctPanel1.AutoScroll = true;
             this.ctPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ctPanel1.BackgroundImage")));
             this.ctPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ctPanel1.BorderColor = System.Drawing.Color.White;
+            this.ctPanel1.Controls.Add(this.ctPanel2);
+            this.ctPanel1.Controls.Add(this.label1);
             this.ctPanel1.Controls.Add(this.ctPanel6);
             this.ctPanel1.Controls.Add(this.ctBreakLine1);
             this.ctPanel1.Controls.Add(this.label5);
@@ -509,6 +519,95 @@
             this.ctPanel1.Size = new System.Drawing.Size(745, 522);
             this.ctPanel1.TabIndex = 7;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(0, 365);
+            this.label1.Name = "label1";
+            this.label1.Padding = new System.Windows.Forms.Padding(5);
+            this.label1.Size = new System.Drawing.Size(244, 23);
+            this.label1.TabIndex = 24;
+            this.label1.Text = "Server update (link of file *.application) ";
+            // 
+            // ctPanel2
+            // 
+            this.ctPanel2.AutoScroll = true;
+            this.ctPanel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ctPanel2.BackgroundImage")));
+            this.ctPanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ctPanel2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.ctPanel2.Controls.Add(this.txtServerLink);
+            this.ctPanel2.Controls.Add(this.panel1);
+            this.ctPanel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ctPanel2.Location = new System.Drawing.Point(0, 388);
+            this.ctPanel2.Name = "ctPanel2";
+            this.ctPanel2.Padding = new System.Windows.Forms.Padding(3);
+            this.ctPanel2.PageEndColor = System.Drawing.Color.Empty;
+            this.ctPanel2.PageStartColor = System.Drawing.Color.Empty;
+            this.ctPanel2.Size = new System.Drawing.Size(745, 67);
+            this.ctPanel2.TabIndex = 25;
+            // 
+            // txtServerLink
+            // 
+            this.txtServerLink.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.txtServerLink.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.txtServerLink.BorderColor = System.Drawing.Color.White;
+            this.txtServerLink.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtServerLink.DataFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtServerLink.DataText = "";
+            this.txtServerLink.Dock = System.Windows.Forms.DockStyle.Top;
+            this.txtServerLink.IsPasswordTextBox = false;
+            this.txtServerLink.Location = new System.Drawing.Point(3, 3);
+            this.txtServerLink.Name = "txtServerLink";
+            this.txtServerLink.PaddingBottom = 0;
+            this.txtServerLink.PaddingLeft = 0;
+            this.txtServerLink.PaddingRight = 0;
+            this.txtServerLink.PaddingTop = 0;
+            this.txtServerLink.ReadOnly = false;
+            this.txtServerLink.Size = new System.Drawing.Size(739, 23);
+            this.txtServerLink.TabIndex = 0;
+            this.txtServerLink.TextHint = "Server Link: ";
+            this.txtServerLink.TextHintColor = System.Drawing.SystemColors.ControlText;
+            this.txtServerLink.TextHintWidth = 150;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.btnCancelServerLink);
+            this.panel1.Controls.Add(this.btnSaveServerLink);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(3, 36);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(739, 28);
+            this.panel1.TabIndex = 13;
+            // 
+            // btnCancelServerLink
+            // 
+            this.btnCancelServerLink.ButtonBackgroundColor = System.Drawing.Color.Transparent;
+            this.btnCancelServerLink.ButtonBorderColor = System.Drawing.Color.Empty;
+            this.btnCancelServerLink.ButtonBorderSize = 1;
+            this.btnCancelServerLink.ButtonDataText = "Cancel";
+            this.btnCancelServerLink.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnCancelServerLink.Location = new System.Drawing.Point(635, 0);
+            this.btnCancelServerLink.Name = "btnCancelServerLink";
+            this.btnCancelServerLink.Padding = new System.Windows.Forms.Padding(3, 3, 0, 0);
+            this.btnCancelServerLink.Size = new System.Drawing.Size(52, 28);
+            this.btnCancelServerLink.TabIndex = 0;
+            // 
+            // btnSaveServerLink
+            // 
+            this.btnSaveServerLink.ButtonBackgroundColor = System.Drawing.Color.Transparent;
+            this.btnSaveServerLink.ButtonBorderColor = System.Drawing.Color.Empty;
+            this.btnSaveServerLink.ButtonBorderSize = 1;
+            this.btnSaveServerLink.ButtonDataText = "Save";
+            this.btnSaveServerLink.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnSaveServerLink.Location = new System.Drawing.Point(687, 0);
+            this.btnSaveServerLink.Name = "btnSaveServerLink";
+            this.btnSaveServerLink.Padding = new System.Windows.Forms.Padding(3, 3, 0, 0);
+            this.btnSaveServerLink.Size = new System.Drawing.Size(52, 28);
+            this.btnSaveServerLink.TabIndex = 1;
+            this.btnSaveServerLink.Click += new System.EventHandler(this.btnSaveServerLink_Click);
+            // 
             // ctSetting
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -527,6 +626,8 @@
             this.panel2.ResumeLayout(false);
             this.ctPanel1.ResumeLayout(false);
             this.ctPanel1.PerformLayout();
+            this.ctPanel2.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -563,5 +664,11 @@
         public MLLib.Controls.ctButton btnCancelFolderDefaultMyFile;
         private MLLib.Controls.ctButton btnSaveDefaultFolderMyFile;
         private MLLib.Controls.ctPanel ctPanel1;
+        private MLLib.Controls.ctPanel ctPanel2;
+        private MLLib.Controls.ctTextBox txtServerLink;
+        private System.Windows.Forms.Panel panel1;
+        public MLLib.Controls.ctButton btnCancelServerLink;
+        private MLLib.Controls.ctButton btnSaveServerLink;
+        private System.Windows.Forms.Label label1;
     }
 }

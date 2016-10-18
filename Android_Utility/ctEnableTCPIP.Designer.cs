@@ -28,30 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnConnect = new MLLib.Controls.ctButton();
             this.SuspendLayout();
             // 
-            // button1
+            // btnConnect
             // 
-            this.button1.Location = new System.Drawing.Point(47, 39);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnConnect.ButtonBackgroundColor = System.Drawing.SystemColors.Control;
+            this.btnConnect.ButtonBorderColor = System.Drawing.Color.Empty;
+            this.btnConnect.ButtonBorderSize = 1;
+            this.btnConnect.ButtonDataText = "Connect / Reconnect";
+            this.btnConnect.Location = new System.Drawing.Point(116, 114);
+            this.btnConnect.Name = "btnConnect";
+            this.btnConnect.Size = new System.Drawing.Size(233, 72);
+            this.btnConnect.TabIndex = 1;
+            this.btnConnect.Click += new System.EventHandler(this.btnConnect_Click);
             // 
             // ctEnableTCPIP
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnConnect);
             this.Name = "ctEnableTCPIP";
+            this.Size = new System.Drawing.Size(490, 314);
+            this.SizeChanged += new System.EventHandler(this.ctEnableTCPIP_SizeChanged);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private MLLib.Controls.ctButton btnConnect;
     }
 }
