@@ -59,12 +59,12 @@
             this.btnCancelFolderDefaultMyFile = new MLLib.Controls.ctButton();
             this.btnSaveDefaultFolderMyFile = new MLLib.Controls.ctButton();
             this.ctPanel1 = new MLLib.Controls.ctPanel();
-            this.label1 = new System.Windows.Forms.Label();
             this.ctPanel2 = new MLLib.Controls.ctPanel();
             this.txtServerLink = new MLLib.Controls.ctTextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnCancelServerLink = new MLLib.Controls.ctButton();
             this.btnSaveServerLink = new MLLib.Controls.ctButton();
+            this.label1 = new System.Windows.Forms.Label();
             this.ctPanel3.SuspendLayout();
             this.panel5.SuspendLayout();
             this.ctPanel4.SuspendLayout();
@@ -519,18 +519,6 @@
             this.ctPanel1.Size = new System.Drawing.Size(745, 522);
             this.ctPanel1.TabIndex = 7;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(0, 365);
-            this.label1.Name = "label1";
-            this.label1.Padding = new System.Windows.Forms.Padding(5);
-            this.label1.Size = new System.Drawing.Size(244, 23);
-            this.label1.TabIndex = 24;
-            this.label1.Text = "Server update (link of file *.application) ";
-            // 
             // ctPanel2
             // 
             this.ctPanel2.AutoScroll = true;
@@ -607,6 +595,18 @@
             this.btnSaveServerLink.Size = new System.Drawing.Size(52, 28);
             this.btnSaveServerLink.TabIndex = 1;
             this.btnSaveServerLink.Click += new System.EventHandler(this.btnSaveServerLink_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(0, 365);
+            this.label1.Name = "label1";
+            this.label1.Padding = new System.Windows.Forms.Padding(5);
+            this.label1.Size = new System.Drawing.Size(244, 23);
+            this.label1.TabIndex = 24;
+            this.label1.Text = "Server update (link of file *.application) ";
             // 
             // ctSetting
             // 

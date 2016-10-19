@@ -18,6 +18,7 @@ namespace Android_Utility
         public static string FOLDER_MY_FILE = "FOLDER_MY_FILE";
 
         public static string IP = "IP";
+        public static string IPTCPIP = "IPTCPIP";
         public static string USERNAME = "USERNAME";
         
         public static string CURRENT_VERSION = "CURRENT_VERSION";

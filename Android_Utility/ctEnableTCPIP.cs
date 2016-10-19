@@ -36,6 +36,11 @@ namespace Android_Utility
             }
         }
 
+        public void setTempIP()
+        {
+            txtIP.DataText = MLLib.Windows.Registry.ReadKey(Constant.IPTCPIP);
+        }
+
         private void ctEnableTCPIP_SizeChanged(object sender, EventArgs e)
         {
             panel1.Left = (this.Width - panel1.Width) / 2;
@@ -59,6 +64,7 @@ namespace Android_Utility
                             AdbCommand adb = new AdbCommand();
                             adb.OutputTextRunADB += utilEvent.InsertLog;
                             adb.ExecuteCommandSync("adb connect " + txtIP.DataText, true);
+                            MLLib.Windows.Registry.WriteKey(Constant.IPTCPIP, txtIP.DataText);
                         }
                         catch (Exception)
                         {
@@ -104,6 +110,7 @@ namespace Android_Utility
                                 {
                                     ip = match.Captures[0].ToString();
                                     utilEvent.InsertLog("IP: " + ip, b);
+                                    MLLib.Windows.Registry.WriteKey(Constant.IPTCPIP, ip);
                                 }
                                 else
                                 {

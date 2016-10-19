@@ -312,6 +312,7 @@ namespace Android_Utility
                 if (tab == tpEnableTCPIP)
                 {
                     ctEnableTCPIP enableTCPIP = new ctEnableTCPIP(utilEvent);
+                    enableTCPIP.setTempIP();
                     enableTCPIP.ListOfDevice = listofdevice;
                     enableTCPIP.Dock = DockStyle.Fill;
                     tab.Controls.Add(enableTCPIP);
