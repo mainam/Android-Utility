@@ -19,7 +19,7 @@ namespace AndroidUtility
         {
             try
             {
-                Process.Start("file://107.113.53.35/common/5.USERS/ngoc.nam/PROJECT/ANDROID_UTILITY/Android%20Utility.application");
+                //Process.Start("http://79apps.info/application/android_utility/Android%20Utility.application");
             }
             catch (Exception)
             {

@@ -38,12 +38,49 @@ namespace Android_Utility
 
         private void ctEnableTCPIP_SizeChanged(object sender, EventArgs e)
         {
-            btnConnect.Left = (this.Width - btnConnect.Width) / 2;
-            btnConnect.Top = (this.Height - btnConnect.Height) / 2;
+            panel1.Left = (this.Width - panel1.Width) / 2;
+            panel1.Top = (this.Height - panel1.Height) / 2;
         }
 
         Thread threadRunAdb;
         private void btnConnect_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var match = Regex.Match(txtIP.DataText, @"^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$");
+                if (match.Success)
+                {
+
+                    utilEvent.AbortThread(threadRunAdb, utilEvent.InsertLog);
+                    threadRunAdb = new Thread(delegate ()
+                    {
+                        try
+                        {
+                            AdbCommand adb = new AdbCommand();
+                            adb.OutputTextRunADB += utilEvent.InsertLog;
+                            adb.ExecuteCommandSync("adb connect " + txtIP.DataText, true);
+                        }
+                        catch (Exception)
+                        {
+
+                        }
+                    });
+                    threadRunAdb.Start();
+                }
+                else
+                {
+                    utilEvent.InsertLog("Please enter IP of your device ", UtilLog.LogType.Error);
+                }
+
+
+            }
+            catch (Exception e1)
+            {
+                utilEvent.InsertLog(e1.Message, UtilLog.LogType.Error);
+            }
+        }
+
+        private void btnTurnOnAndConnect_Click(object sender, EventArgs e)
         {
             try
             {

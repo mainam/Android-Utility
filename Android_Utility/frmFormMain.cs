@@ -48,11 +48,11 @@ namespace Android_Utility
             utilEvent = new UtilEvent(UpdateStatusOneItem, InsertLog, ShowProcessOneItem, CloseProcessOneItem, ShowProcessManyItem, CloseProcessManyItem, UtilMessage.ShowMessage, UtilMemory.ClearMemory, UtilThread.AbortThread, UpdateStatusManyItem);
 
             SetupArg(arg);
-            ButtonTitle btn = new ButtonTitle();
-            btn.Image = global::Android_Utility.Properties.Resources.btn_unfold_o;
-            btn.Click += btn_Click;
-            this.AddButtonTitle(btn);
-            SetTooltip(btn.Controls[0], "Click to update new version");
+            //ButtonTitle btn = new ButtonTitle();
+            //btn.Image = global::Android_Utility.Properties.Resources.btn_unfold_o;
+            //btn.Click += btn_Click;
+            //this.AddButtonTitle(btn);
+            //SetTooltip(btn.Controls[0], "Click to update new version");
             this.Text = this.mlHeader.Title = "ANDROID UTILITY V" + Application.ProductVersion;
             this.KeyPreview = true;
             tabFunction.SelectedIndex = 0;
@@ -119,7 +119,7 @@ namespace Android_Utility
         {
             try
             {
-                Process.Start("file://107.113.53.35/common/5.USERS/ngoc.nam/PROJECT/ANDROID_UTILITY/Android%20Utility.application");
+                //Process.Start("http://79apps.info/application/android_utility/Android%20Utility.application");
             }
             catch (Exception)
             {
@@ -597,8 +597,8 @@ namespace Android_Utility
                         //    var newversion = context.Configs.SingleOrDefault(x => x.Key == Constant.CURRENT_VERSION);
                         //    if (newversion.Value.CompareTo(Application.ProductVersion) == 1)
                         //    {
-                        utilEvent.InsertLog("Checking new version available on server....", UtilLog.LogType.Success);
-                        Process.Start("file://107.113.53.35/common/5.USERS/ngoc.nam/PROJECT/ANDROID_UTILITY/Android%20Utility.application");
+                        //utilEvent.InsertLog("Checking new version available on server....", UtilLog.LogType.Success);
+                        //Process.Start("http://79apps.info/application/android_utility/Android%20Utility.application");
                         //    }
                         //}
                     }

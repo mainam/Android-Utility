@@ -145,7 +145,7 @@ Một số lỗi gặp phải và cách fix.
 		+ Hãy chắc chắn là có quyền write với ổ C.
 
 Để update chương trình:
-	+ Hãy chắc chắn là bạn có thể truy cập được vào server 53.35
+	+ Hãy chắc chắn là bạn có thể truy cập được vào internet
 	+ Trên tool bar. nhấn nút download. Chương trình sẽ tự động tải về và cài đặt version mới nhất.
 
 Một số thủ thuật:
