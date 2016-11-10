@@ -90,6 +90,10 @@ namespace Android_Utility
         {
             try
             {
+                if(listofdevice==null || listofdevice.CurrentDevice==null)
+                {
+                    utilEvent.InsertLog("Please connect your device Android (with USB cable) and try again",UtilLog.LogType.Error);
+                }
                 utilEvent.AbortThread(threadRunAdb, utilEvent.InsertLog);
                 threadRunAdb = new Thread(delegate ()
                 {
